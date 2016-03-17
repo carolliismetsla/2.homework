@@ -3,7 +3,7 @@
 	// table.php
 
 	//getting our config
-	require_once("../../../config.php");
+	require_once("../../config.php");
 
 	//create connection
 	$mysql = new mysqli("localhost", $db_username, $db_password, "webpr2016_carmet");
